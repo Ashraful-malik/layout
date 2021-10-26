@@ -17,7 +17,4 @@ export default {
 };
 </script>
 
-<style>
-#app {
-}
-</style>
+<style lang="scss"></style>

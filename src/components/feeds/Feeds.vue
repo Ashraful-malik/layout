@@ -1,10 +1,10 @@
 <template>
   <div class="hero is-fullheight">
-    <div class="">
+    <div class="container">
       <div class="section">
         <div class="columns is-multiline">
-          <div class="column is-one-third" v-for="x in 50" :key="x">
-            <Feed />
+          <div class="column is-one-third" v-for="x in 5" :key="x">
+            <!-- <Feed /> -->
             <br />
             <Feed2 />
           </div>
@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import Feed from "./Feed.vue";
+// import Feed from "./Feed.vue";
 import Feed2 from "./Feed2.vue";
 export default {
   name: "Feeds",
   components: {
-    Feed,
+    // Feed,
     Feed2,
   },
 };
