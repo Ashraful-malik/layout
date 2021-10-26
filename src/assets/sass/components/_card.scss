@@ -1,0 +1,33 @@
+.card .media:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+.card {
+  max-width: 22rem;
+}
+.card .content p {
+  color: #a2a5b9;
+  letter-spacing: 1px;
+}
+.card-header {
+  width: 100%;
+  min-height: 4.5rem;
+  background-image: linear-gradient(to right, #d36bca, 60%, #1282eb);
+}
+.heart-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.readmore-btn {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+img {
+  border-radius: 8px;
+}
+.title {
+  color: #fafafa;
+  margin-bottom: 0.4rem;
+}
+.image {
+  margin-top: -48px;
+}
